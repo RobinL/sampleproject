@@ -14,17 +14,17 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-long_description = "desc"
+long_description = "creates a random pandas dataframe to work with"
 
 setup(
-    name='sample',
+    name='randomdf',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.2.0',
+    version='0.0.1',
 
-    description='A sample Python project',
+    description='Creates a random pandas dataframe to work with',
     long_description=long_description,
 
     # The project's main homepage.
@@ -107,7 +107,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'sample=sample:main',
+            'randomdf=randomdf:main',
         ],
     },
 )
